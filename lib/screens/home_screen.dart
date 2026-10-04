@@ -69,16 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            const SizedBox(height: 12),
-            Center(
-              child: Image.asset(
-                'assets/ystrad_rhondda_logo.png',
-                width: 120,
-                height: 172,
-                fit: BoxFit.contain,
-              ),
-            ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 20),
             const Text(
               'Ystrad Rhondda',
               textAlign: TextAlign.center,
@@ -90,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 24),
             if (matches.isEmpty)
               Center(
                 child: FilledButton.icon(

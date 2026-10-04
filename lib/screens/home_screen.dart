@@ -71,12 +71,6 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             const SizedBox(height: 20),
             const Text(
-              'Ystrad Rhondda',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 4),
-            const Text(
               'Rugby Scorekeeper',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16),
